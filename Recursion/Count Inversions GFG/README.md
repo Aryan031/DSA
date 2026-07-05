@@ -10,7 +10,6 @@
 # Approach - Optimized
 - As in Merge Sort, what we do is we have 2 arrays which are sorted. Now we compare values in these arrays one by one and merge them
 - While comparing, we can check if left element is greater than right element. If it is true, we can increment our counter.
-- Eg: leftArr=[1,2,3] and rightArr=[1,1]
-Now in the second comparison with element 2, we can see that left is greater than right element (2>1)
+- Eg: leftArr=[1,2,3] and rightArr=[1,1]. Now in the second comparison with element 2, we can see that left is greater than right element (2>1)
 - This means all elements in leftArr after 2 will also be greater than element in rightArr (because leftArr is sorted)
 - So, count += size(leftArr)-indexOf(2)
